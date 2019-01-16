@@ -1,10 +1,3 @@
-# A full swiss army knife prealgebra calculator
-# New design model with functions at the top and being called below in the menu
-# Recursion depth exceeded error on Pyinstaller while trying to make this program into an exe.
-# Apparently I need to change the spec file.
-# Info on the error found at https://stackoverflow.com/questions/38977929/pyinstaller-creating-exe-runtimeerror-maximum-recursion-depth-exceeded-while-ca
-# http://pyinstaller.readthedocs.io/en/stable/spec-files.html
-
 import math
 from sympy import sieve
 from sympy import prime
